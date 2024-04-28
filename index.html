@@ -1,87 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chinese Restaurant</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color: #f44336;
-    padding: 20px;
-    text-align: center;
-  }
-  header a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  .container {
-    padding: 20px;
-  }
-  .dish {
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-</style>
+    <title>Chinese Restaurant</title>
+    <style>
+        body {
+            background-color: #ffcc00;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .recipe {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        .recipe img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-
-<header>
-  <a href="#home" style="color: #000; background-color: #ff5722; padding: 5px;">Home</a>
-  <a href="#menu" style="color: #000; background-color: #ff5722; padding: 5px;">Menu</a>
-  <a href="#about"style="color: #000; background-color: #ff5722; padding: 5px;">About</a>
-</header>
-
-<div id="home" class="container">
-  <h1>Welcome to our Chinese Restaurant!</h1>
-  <p>We offer a wide variety of delicious Chinese dishes.</p>
-</div>
-
-<div id="menu" class="container">
-  <h2>Menu</h2>
-  <div class="dish">
-    <h3>Mapo Tofu</h3>
-    <img src="https://via.placeholder.com/150" alt="Mapo Tofu">
-    <p>A spicy Sichuan dish made with tofu, minced meat, and fermented black beans.</p>
-    <p>Price: $10</p>
-  </div>
-  <div class="dish">
-    <h3>Dim Sum</h3>
-    <img src="https://via.placeholder.com/150" alt="Dim Sum">
-    <p>A variety of small, bite-sized portions of food served in steamer baskets.</p>
-    <p>Price: $12</p>
-  </div>
-  <!-- Add more dishes here -->
-</div>
-
-<div id="about" class="container">
-  <h2>About Us</h2>
-  <p>We are committed to providing authentic Chinese cuisine using the finest ingredients.</p>
-</div>
-
-<footer>
-  <p>&copy; 2024 Chinese Restaurant. All rights reserved.</p>
-</footer>
-
-<script>
-  // JavaScript code can be added here if needed
-</script>
-
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+    </header>
+    
+    <main>
+        <div class="recipe">
+            <img src="recipe1.jpg" alt="Recipe 1">
+            <h2>Recipe 1</h2>
+            <p>Description of Recipe 1 with more specified details.</p>
+        </div>
+        
+        <div class="recipe">
+            <img src="recipe2.jpg" alt="Recipe 2">
+            <h2>Recipe 2</h2>
+            <p>Description of Recipe 2 with more specified details.</p>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2022 Chinese Restaurant. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // You can add JavaScript code here if needed
+    </script>
 </body>
 </html>
